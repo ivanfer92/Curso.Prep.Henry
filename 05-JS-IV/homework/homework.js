@@ -38,7 +38,8 @@ function multiplicarNumeroDesconocidoPorCinco(objetoMisterioso) {
   // "objetoMisterioso" tiene una propiedad llamada "numeroMisterioso"
   // Multiplica el numeroMisterioso por 5 y devuelve el producto
   // Tu código:
-
+  var result= objetoMisterioso.numeroMisterioso *5;
+  return result;
 }
 
 function eliminarPropiedad(objeto, unaPropiedad) {
@@ -46,6 +47,8 @@ function eliminarPropiedad(objeto, unaPropiedad) {
   // tip: tenes que usar bracket notation
   // Devuelve el objeto
   // Tu código:
+  delete objeto [propiedad];
+  return objeto;
 }
 
 function nuevoUsuario(nombre, email, password) {
